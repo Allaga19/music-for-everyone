@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+/*=====================================================
+
+* Название проекта
+
+    Автор: ...
+    Copyright (c) 2015 ...
+
+=====================================================*/
+
+/* БАЗОВЫЕ НАСТРОЙКИ
+-----------------------------------------------------*/
+
+html,
+body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizelegibility;
+}
+
+body {
+	background: ;
+}
+
+/* ШАПКА САЙТА
+-----------------------------------------------------*/
+
+.header__logo {
+	background-color: red;
+}
+
+/* КОНТЕНТ
+-----------------------------------------------------*/
+
+#main-container {
+}
+#main-container main {
+}
+#main-container section {
+}
+#main-container section header {
+}
+
+/* ПОДВАЛ САЙТА
+-----------------------------------------------------*/
+
+#footer-container {
+}
+#footer-container footer {
+}
+#footer-container p {
+}
+#footer-container small {
+}
+
+/* МОБ. НАСТРОЙКИ
+-----------------------------------------------------*/
+
+@media only screen and (max-width: 479px) {
+}
+
+@media only screen and (min-width: 480px) {
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 1024px) {
+}
+
+@media only screen and (min-width: 1140px) {
+}
