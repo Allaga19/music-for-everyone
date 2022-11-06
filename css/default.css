@@ -17,6 +17,7 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+	padding-bottom: 172px;
 }
 img,
 svg {
@@ -49,7 +50,6 @@ h6,
 p {
 	margin: 0;
 }
-
 .visually-hidden {
 	position: fixed;
 	transform: scale(0);
