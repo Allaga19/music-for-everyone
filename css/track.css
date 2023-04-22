@@ -6,12 +6,12 @@
 	display: flex;
 	flex-direction: column;
 }
-.track-active {
+.track_active {
 	border-color: #fff;
 	background-color: rgba(225, 225, 225, 0.5);
 	transition: background-color 0.3s ease-in-out;
 }
-.track-active:hover {
+.track_active:hover {
 	background-color: rgba(225, 225, 225, 0.7);
 }
 .track__img-wrap {
@@ -49,14 +49,17 @@
 	transform: translate(-50%, -50%) rotateY(0) scale(1.3);
 	opacity: 1;
 }
-.track-active .track__img-wrap::after {
+.track_active .track__img-wrap::after {
 	transform: translate(-50%, -50%) rotateY(0);
 	background-image: url(../img/pause.svg);
 	transition-property: background-color;
 	opacity: 1;
 }
-.track-active:hover .track__img-wrap::after {
+.track_active:hover .track__img-wrap::after {
 	background-color: #fff;
+}
+.track_pause .track__img-wrap::after {
+	background-image: url(../img/play.svg);
 }
 .track__poster {
 	width: 100%;

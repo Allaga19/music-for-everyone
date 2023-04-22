@@ -14,8 +14,9 @@
 	<meta name="msapplication-TileColor" content="#1e5a32">
 	<meta name="theme-color" content="#1E5A32">
 
-	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/main.css">
 
+	<script src="js/main.js" defer></script>
 	<title>Music gor everoney</title>
 </head>
 
@@ -45,17 +46,17 @@
 	<section class="catalog">
 		<h2 class="visually-hidden">Список треков</h2>
 		<div class="catalog__container">
-			<button class="catalog__item track">
-				<div class="track__img-wrap">
+			<!-- <button class="catalog__item track" data-track="audio/Adele - Someone Like You.mp3"> -->
+				<!-- <div class="track__img-wrap">
 					<img class="track__poster" src="img/catalog/photo-1.jpg" alt="The weekng - Save your tears" width="180px"
 						height="180px">
 				</div>
 				<div class="track__info track-info">
 					<p class="track-info__title">Save your tears</p>
 					<p class="track-info__artist">The weeknd</p>
-				</div>
-			</button>
-			<button class="catalog__item track track-active">
+				</div> -->
+			<!-- </button> -->
+			<!-- <button class="catalog__item track track-active" data-track="audio/Imagine Dragons - Follow You.mp3">
 				<div class="track__img-wrap">
 					<img class="track__poster" src="img/catalog/photo-2.jpg" alt="Follow You" width="180px" height="180px">
 				</div>
@@ -164,23 +165,23 @@
 				<svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
 					<path d="M8.59 16.59L13.17 12L8.59 7.41L10 6L16 12L10 18L8.59 16.59Z" />
 				</svg>
-			</button>
+			</button> -->
 		</div>
 	</section>
 
-	<section class="player player-active">
+	<section class="player">
 		<h2 class="visually-hidden">Плеер</h2>
 		<div class="player__container">
-			<div class="track__info track-info">
+			<div class="track__info track-info track-info_mobile-center">
 				<p class="track-info__title">Frozen</p>
 				<p class="track-info__artist">Madonna</p>
 			</div>
 			<div class="player__controller">
-				<button class="player__icon player__icon-stop"></button>
-				<button class="player__icon player__icon-prev"></button>
-				<button class="player__icon player__icon-pause"></button>
-				<button class="player__icon player__icon-next"></button>
-				<button class="player__icon player__icon-like"></button>
+				<button class="player__icon player__icon-stop player__controller-stop"></button>
+				<button class="player__icon player__icon-prev player__controller-prev"></button>
+				<button class="player__icon player__icon-pause player__controller-pause"></button>
+				<button class="player__icon player__icon-next player__controller-next"></button>
+				<button class="player__icon player__icon-like player__controller-like"></button>
 			</div>
 			<div class="player__progress-wrap">
 				<div class="player__progress">
@@ -200,8 +201,6 @@
 			</div>
 		</div>
 	</section>
-
-	<script src="js/main.js"></script>
 
 </body>
 
